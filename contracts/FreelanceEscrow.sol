@@ -25,4 +25,4 @@ interface IFreelanceEscrow {
     function submitMilestone(uint256 _projectId, uint256 _milestoneId, string memory _deliverableHash) external;
     function approveMilestone(uint256 _projectId, uint256 _milestoneId) external;
     function raiseDispute(uint256 _projectId, uint256 _milestoneId, string memory _reason) external returns (uint256);
-}
+}    
